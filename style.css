@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Comfortaa);
+body {
+	background: url("img/background.jpg") no-repeat;
+	background-size: cover;
+}
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -85px 0 0 -80px;
+	-webkit-animation:spin 7s linear infinite;
+	-moz-animation:spin 7s linear infinite;
+	animation:spin 7s linear infinite;
+	border: 5px #70A2CC;
+	border-style: dashed;
+	border-radius: 100%
+}
+.image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 120px;
+	height: 120px;
+	margin:-60px 0 0 -60px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+#message {
+	position: absolute;
+	width: 23%;
+	height: 6%;
+	background: rgba(0, 0, 0, 0.25);
+	top: 85%;
+	left: 50%;
+	margin: -11.5%; 0 0 -3%;
+	box-shadow: 1px 1px 10px #000000;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1vw;
+	padding: 8px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: solid 2px #70A2CC;
+	text-align: center;
+}
+#title {
+	text-align: center;
+	font-size: 1vw;
+}
+#dev {
+	position: absolute;
+	width: 24%;
+	height: 52%;
+	background: rgba(0, 0, 0, 0.25);
+	top: 39%;
+	left: 80%;
+	margin: -12%; 0 0 -26%;
+	box-shadow: 1px 1px 10px #000000;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1vw;
+	padding: 8px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: solid 2px #70A2CC;
+	text-align: center;
+}
