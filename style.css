@@ -66,3 +66,19 @@ body {
 	border: solid 2px #70A2CC;
 	text-align: center;
 }
+#song {
+	position: absolute;
+	width: 13.02083333333333%;
+	height: 2.314814814814815%;
+	background: rgba(0, 0, 0, 0.25);
+	top: 1.389%;
+	left: 0.78125%;
+	box-shadow: 1px 1px 10px #000000;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1vw;
+	padding: 8px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: solid 2px #70A2CC;
+	text-align: center;
+}
