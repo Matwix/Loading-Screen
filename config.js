@@ -15,7 +15,7 @@ var l_musicPlaylist = [
 	{youtube: "Ay8AMiG10_s", name: "Alone Together"},
 	{youtube: "dpciZ0D-Hhc", name: "Orbit"},
 	{youtube: "c1hPCKKJDLQ", name: "Everchanging"},
-	{youtube: "2zPPzuo29XA", name: "Runaway"},
+	{youtube: "cYs1X-AdRZQ", name: "I like to Move it"},
 	{youtube: "bP--ezBeCIo", name: "I'm Here"},
 	{youtube: "ARgdBb2Go0w", name: "Sweets"},
 	{youtube: "lITExahxoyM", name: "Endless"},
